@@ -1,6 +1,6 @@
 # Gulp Project Script
 
-This builds a Gulp project with one command 
+This builds a Gulp project with one command. 
 
 ## Packages installed
 
@@ -18,8 +18,18 @@ This builds a Gulp project with one command
 Clone to whatever directory you want to run this in then:
 
  ```shell
-mod +x gulpSetUp.sh
+chmod +x gulpSetUp.sh
 ./gulpSetUp.sh
 ```
 
+Then if you want to make it runnable anywhere you will need to add:
+```shell
+alias gulpSetUp='path/to/gulpSetUp.sh'
+```
 
+to your .bashrc the run: 
+```shell 
+source .bashrc
+```
+
+in the directory your .bashrc is in to make the changes final. 
